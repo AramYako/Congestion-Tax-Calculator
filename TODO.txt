@@ -1,0 +1,10 @@
+1 ) API: GET Operation 
+2) Limit scope to 2013
+
+
+
+//Strategy
+1) Implement API 
+2) Implement Service
+3) Implement persistance
+4) Create unit test
