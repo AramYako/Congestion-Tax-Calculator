@@ -68,8 +68,8 @@ public class CongestionTaxCalculatorService : ICongestionTaxCalculatorService
             return true;
 
         return tollfreeDates.Days
-            .Where(x => x.Equals(date.Month))
-            .Where(x => x.Equals(date.Day))
+            .Where(x => x.Month.Equals(date.Month))
+            .Where(x => x.Day.Equals(date.Day))
             .Any();
     }
 
